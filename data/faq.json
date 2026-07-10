@@ -1,0 +1,815 @@
+[
+  {
+    "id": "faq_001",
+    "intent": "inscription",
+    "question": "Comment m'inscrire à l'UV-BF ?",
+    "reponse": "Pour vous inscrire à l'UV-BF, rendez-vous sur le {PLATEFORME} et créez un compte avec votre adresse email. Vous devrez ensuite téléverser vos {DOCUMENT} (diplôme du baccalauréat, pièce d'identité, photo) et payer les {SERVICE} pour valider votre dossier.",
+    "entities": {
+      "PLATEFORME": "portail d'inscription en ligne UV-BF",
+      "DOCUMENT": "documents administratifs",
+      "SERVICE": "frais d'inscription"
+    },
+    "variantes": [
+      "Comment faire pour s'inscrire a l'UV-BF ?",
+      "Quelle est la procedure d'inscription ?",
+      "Comment deposer mon dossier de candidature a l'UV-BF ?"
+    ]
+  },
+  {
+    "id": "faq_002",
+    "intent": "inscription",
+    "question": "Quelles sont les conditions d'admission en Master FDIA ?",
+    "reponse": "Pour intégrer le Master {FILIERE}, il faut être titulaire d'une Licence en informatique, mathématiques ou domaine connexe, et déposer un dossier de candidature via le {PLATEFORME}.",
+    "entities": {
+      "FILIERE": "FDIA (Fouille de Données et Intelligence Artificielle)",
+      "PLATEFORME": "portail de candidature UV-BF"
+    },
+    "variantes": [
+      "Comment candidater au Master FDIA ?",
+      "Quel diplome faut-il pour le Master FDIA ?",
+      "Conditions pour entrer en Master Intelligence Artificielle"
+    ]
+  },
+  {
+    "id": "faq_003",
+    "intent": "inscription",
+    "question": "Comment faire ma réinscription pour la nouvelle année ?",
+    "reponse": "La {SERVICE} se fait sur votre espace étudiant du {PLATEFORME}, généralement avant la rentrée. Assurez-vous d'être en règle avec vos {SERVICE2} de l'année précédente.",
+    "entities": {
+      "SERVICE": "réinscription",
+      "PLATEFORME": "portail étudiant UV-BF",
+      "SERVICE2": "frais de scolarité"
+    },
+    "variantes": [
+      "Comment faire ma reinscription ?",
+      "Ou faire ma reinscription pour l'annee prochaine ?",
+      "Comment renouveler mon inscription a l'UV-BF ?"
+    ]
+  },
+  {
+    "id": "faq_004",
+    "intent": "cours_acces",
+    "question": "Comment accéder à mes cours en ligne ?",
+    "reponse": "Vos cours sont disponibles sur la plateforme {PLATEFORME}. Connectez-vous avec vos identifiants étudiant pour accéder aux ressources de votre {FILIERE}.",
+    "entities": {
+      "PLATEFORME": "Moodle UV-BF (e-learning)",
+      "FILIERE": "filière"
+    },
+    "variantes": [
+      "Comment voir mes cours en ligne ?",
+      "Ou trouver mes cours sur la plateforme ?",
+      "Comment consulter mes cours de ma filiere ?"
+    ]
+  },
+  {
+    "id": "faq_005",
+    "intent": "cours_acces",
+    "question": "Je ne trouve pas un cours sur la plateforme, que faire ?",
+    "reponse": "Vérifiez d'abord que vous êtes inscrit à l'{SERVICE} correspondante. Si le problème persiste, contactez le {SERVICE2} via le formulaire du {PLATEFORME}.",
+    "entities": {
+      "SERVICE": "unité d'enseignement (UE)",
+      "SERVICE2": "support technique",
+      "PLATEFORME": "portail UV-BF"
+    },
+    "variantes": [
+      "Un cours n'apparait pas sur la plateforme, que faire ?",
+      "Je ne vois pas tous mes cours, pourquoi ?",
+      "Cours manquant sur Moodle, comment faire ?"
+    ]
+  },
+  {
+    "id": "faq_006",
+    "intent": "cours_acces",
+    "question": "Puis-je télécharger les supports de cours ?",
+    "reponse": "Oui, la plupart des supports sont téléchargeables au format PDF directement depuis votre espace {PLATEFORME}, dans la section de chaque {SERVICE}.",
+    "entities": {
+      "PLATEFORME": "Moodle UV-BF",
+      "SERVICE": "unité d'enseignement"
+    },
+    "variantes": [
+      "Comment recuperer les supports de cours ?",
+      "Peut-on telecharger les documents de cours en PDF ?"
+    ]
+  },
+  {
+    "id": "faq_007",
+    "intent": "examen",
+    "question": "Quand ont lieu les examens du semestre ?",
+    "reponse": "Le calendrier des examens est publié sur le {PLATEFORME} au moins {PERIODE} avant le début des épreuves. Consultez régulièrement votre espace étudiant.",
+    "entities": {
+      "PLATEFORME": "portail académique UV-BF",
+      "PERIODE": "trois semaines"
+    },
+    "variantes": [
+      "Quelles sont les dates des examens ?",
+      "Quand est le calendrier des examens ?",
+      "Ou trouver le calendrier des examens ?"
+    ]
+  },
+  {
+    "id": "faq_008",
+    "intent": "examen",
+    "question": "Comment se déroulent les examens à distance ?",
+    "reponse": "Les examens se deroulent en 4 sessions : 2 sessions normales et 2 sessions de rattrapage. Ils peuvent etre organises en ligne via le {PLATEFORME} ou en presentiel dans les centres regionaux, selon la filiere et le type d'evaluation.",
+    "entities": {
+      "PLATEFORME": "plateforme d'examen UV-BF"
+    },
+    "variantes": [
+      "Comment se passent les examens ?",
+      "Combien de sessions d'examen y a-t-il ?",
+      "Les examens sont en ligne ou en presentiel ?"
+    ]
+  },
+  {
+    "id": "faq_009",
+    "intent": "examen",
+    "question": "Je n'ai pas pu passer un examen, que dois-je faire ?",
+    "reponse": "En cas d'absence, meme justifiee, il n'existe pas a ce jour de dispositif d'examen special. Vous devrez attendre la session de rattrapage prevue par le regime des etudes en vigueur. Signalez tout de meme votre absence au {SERVICE} avec un {DOCUMENT} pour que votre dossier soit a jour.",
+    "entities": {
+      "SERVICE": "service de la scolarite",
+      "DOCUMENT": "justificatif (certificat medical, attestation)"
+    },
+    "variantes": [
+      "J'ai manque un examen, que faire ?",
+      "Comment justifier une absence a un examen ?",
+      "Y a-t-il un examen de rattrapage special en cas d'absence ?"
+    ]
+  },
+  {
+    "id": "faq_010",
+    "intent": "bourse",
+    "question": "Comment faire une demande de bourse ?",
+    "reponse": "La demande de {SERVICE} se fait via le {PLATEFORME} du ministère ou de l'UV-BF, en fournissant vos {DOCUMENT} (relevé de notes, certificat de scolarité, justificatifs de revenus).",
+    "entities": {
+      "SERVICE": "bourse d'études",
+      "PLATEFORME": "portail des bourses",
+      "DOCUMENT": "documents justificatifs"
+    },
+    "variantes": [
+      "Comment demander une bourse ?",
+      "Ou faire une demande de bourse d'etudes ?",
+      "Comment obtenir une bourse a l'UV-BF ?"
+    ]
+  },
+  {
+    "id": "faq_011",
+    "intent": "bourse",
+    "question": "Quels sont les critères d'éligibilité à la bourse ?",
+    "reponse": "L'éligibilité à la {SERVICE} dépend de vos résultats académiques et de votre situation sociale. Consultez les critères détaillés sur le {PLATEFORME}.",
+    "entities": {
+      "SERVICE": "bourse",
+      "PLATEFORME": "site du CENOU / UV-BF"
+    },
+    "variantes": [
+      "Qui peut avoir une bourse ?",
+      "Quelles sont les conditions pour avoir une bourse ?"
+    ]
+  },
+  {
+    "id": "faq_012",
+    "intent": "mot_de_passe",
+    "question": "J'ai oublié mon mot de passe, comment le récupérer ?",
+    "reponse": "Cliquez sur \"Mot de passe oublié\" sur la page de connexion du {PLATEFORME}, puis suivez les instructions envoyées à votre email pour réinitialiser votre {SERVICE}.",
+    "entities": {
+      "PLATEFORME": "portail étudiant UV-BF",
+      "SERVICE": "mot de passe"
+    },
+    "variantes": [
+      "J'ai perdu mon mot de passe du portail etudiant, comment faire ?",
+      "Comment reinitialiser mon mot de passe UV-BF ?",
+      "Mot de passe oublie sur le portail etudiant"
+    ]
+  },
+  {
+    "id": "faq_013",
+    "intent": "mot_de_passe",
+    "question": "Mon compte est bloqué, que faire ?",
+    "reponse": "Contactez le {SERVICE} en précisant votre matricule étudiant pour un déblocage rapide de votre compte sur le {PLATEFORME}.",
+    "entities": {
+      "SERVICE": "support technique UV-BF",
+      "PLATEFORME": "portail étudiant"
+    },
+    "variantes": [
+      "Mon compte etudiant ne fonctionne plus, que faire ?",
+      "Compte bloque apres plusieurs essais sur le portail"
+    ]
+  },
+  {
+    "id": "faq_014",
+    "intent": "diplome_attestation",
+    "question": "Comment obtenir mon attestation de scolarité ?",
+    "reponse": "Vous pouvez télécharger votre {DOCUMENT} directement depuis votre espace personnel sur le {PLATEFORME}, dans la rubrique \"Documents administratifs\".",
+    "entities": {
+      "DOCUMENT": "attestation de scolarité",
+      "PLATEFORME": "portail étudiant UV-BF"
+    },
+    "variantes": [
+      "Comment avoir mon attestation de scolarite ?",
+      "Ou demander une attestation de scolarite ?"
+    ]
+  },
+  {
+    "id": "faq_015",
+    "intent": "diplome_attestation",
+    "question": "Quand puis-je récupérer mon diplôme ?",
+    "reponse": "Le {DOCUMENT} est disponible environ {PERIODE} après la délibération finale. Vous serez notifié via votre email pour le retrait auprès de la scolarité.",
+    "entities": {
+      "DOCUMENT": "diplôme",
+      "PERIODE": "six mois"
+    },
+    "variantes": [
+      "Quand recevoir mon diplome ?",
+      "Comment recuperer mon diplome apres la fin des cours ?"
+    ]
+  },
+  {
+    "id": "faq_016",
+    "intent": "calendrier_academique",
+    "question": "Quand commence la rentrée académique ?",
+    "reponse": "La rentrée académique est généralement annoncée sur le {PLATEFORME} et débute en {PERIODE}. Un calendrier détaillé est publié chaque année.",
+    "entities": {
+      "PLATEFORME": "site officiel UV-BF",
+      "PERIODE": "octobre"
+    },
+    "variantes": [
+      "Quand debute la rentree ?",
+      "A quelle date commencent les cours ?"
+    ]
+  },
+  {
+    "id": "faq_017",
+    "intent": "calendrier_academique",
+    "question": "Quelle est la durée d'un semestre ?",
+    "reponse": "Un semestre à l'UV-BF dure environ {PERIODE}, incluant les enseignements et les évaluations.",
+    "entities": {
+      "PERIODE": "quinze semaines"
+    },
+    "variantes": [
+      "Combien de temps dure un semestre ?",
+      "Quelle est la duree des semestres a l'UV-BF ?"
+    ]
+  },
+  {
+    "id": "faq_018",
+    "intent": "frais_scolarite",
+    "question": "Quel est le montant des frais de scolarité ?",
+    "reponse": "Le montant des {SERVICE} varie selon la filière et le niveau d'étude. Consultez la grille tarifaire actualisée sur le {PLATEFORME}.",
+    "entities": {
+      "SERVICE": "frais de scolarité",
+      "PLATEFORME": "portail UV-BF"
+    },
+    "variantes": [
+      "Combien coutent les frais de scolarite ?",
+      "Quel est le prix de la scolarite ?",
+      "Combien coute une annee a l'UV-BF ?"
+    ]
+  },
+  {
+    "id": "faq_019",
+    "intent": "frais_scolarite",
+    "question": "Puis-je payer mes frais en plusieurs tranches ?",
+    "reponse": "Oui, l'UV-BF propose un paiement échelonné des {SERVICE} en plusieurs tranches. Renseignez-vous auprès du service financier via le {PLATEFORME}.",
+    "entities": {
+      "SERVICE": "frais de scolarité",
+      "PLATEFORME": "portail étudiant"
+    },
+    "variantes": [
+      "Peut-on payer en plusieurs fois ?",
+      "Y a-t-il un paiement echelonne des frais de scolarite ?"
+    ]
+  },
+  {
+    "id": "faq_020",
+    "intent": "contact_support",
+    "question": "Comment contacter le support technique ?",
+    "reponse": "Vous pouvez joindre le {SERVICE} par email, via le formulaire de contact du {PLATEFORME}, ou par téléphone aux heures ouvrables.",
+    "entities": {
+      "SERVICE": "support technique UV-BF",
+      "PLATEFORME": "site officiel"
+    },
+    "variantes": [
+      "Comment joindre le support technique de l'UV-BF ?",
+      "Qui contacter en cas de probleme technique ?"
+    ]
+  },
+  {
+    "id": "faq_021",
+    "intent": "contact_support",
+    "question": "Où se trouve le campus de l'UV-BF ?",
+    "reponse": "L'UV-BF étant une université virtuelle, elle n'a pas de campus physique unique, mais dispose de centres d'examen et d'antennes dans plusieurs villes dont {LIEU}.",
+    "entities": {
+      "LIEU": "Ouagadougou et Bobo-Dioulasso"
+    },
+    "variantes": [
+      "Ou est situe le siege de l'UV-BF ?",
+      "Est-ce que l'UV-BF a un campus physique ?"
+    ]
+  },
+  {
+    "id": "faq_022",
+    "intent": "plateforme_technique",
+    "question": "La plateforme ne fonctionne pas, que faire ?",
+    "reponse": "Vérifiez d'abord votre connexion internet et videz le cache de votre navigateur. Si le problème persiste, signalez-le au {SERVICE} via le {PLATEFORME}.",
+    "entities": {
+      "SERVICE": "support technique",
+      "PLATEFORME": "portail UV-BF"
+    },
+    "variantes": [
+      "La plateforme est en panne, que faire ?",
+      "Je n'arrive pas a me connecter a la plateforme, que faire ?"
+    ]
+  },
+  {
+    "id": "faq_023",
+    "intent": "plateforme_technique",
+    "question": "Quel navigateur utiliser pour accéder à la plateforme ?",
+    "reponse": "Il est recommandé d'utiliser une version récente de Chrome ou Firefox pour accéder au {PLATEFORME} dans de bonnes conditions.",
+    "entities": {
+      "PLATEFORME": "Moodle UV-BF"
+    },
+    "variantes": [
+      "Quel navigateur internet utiliser pour la plateforme ?",
+      "Y a-t-il un navigateur recommande ?"
+    ]
+  },
+  {
+    "id": "faq_024",
+    "intent": "cours_acces",
+    "question": "Comment participer aux classes virtuelles en direct ?",
+    "reponse": "Les classes virtuelles se déroulent via des liens de visioconférence partagés sur le {PLATEFORME}, à l'horaire indiqué dans votre {SERVICE}.",
+    "entities": {
+      "PLATEFORME": "Moodle UV-BF",
+      "SERVICE": "emploi du temps"
+    },
+    "variantes": [
+      "Comment suivre les cours en direct ?",
+      "Comment participer aux visioconferences avec les enseignants ?",
+      "Y a-t-il des cours synchrones en direct ?"
+    ]
+  },
+  {
+    "id": "faq_025",
+    "intent": "examen",
+    "question": "Comment consulter mes notes et résultats ?",
+    "reponse": "Vos notes sont consultables dans votre espace personnel sur le {PLATEFORME}, section \"{SERVICE}\".",
+    "entities": {
+      "PLATEFORME": "portail étudiant UV-BF",
+      "SERVICE": "relevé de notes"
+    },
+    "variantes": [
+      "Ou consulter mes notes ?",
+      "Comment voir mes resultats d'examen sur le portail ?"
+    ]
+  },
+  {
+    "id": "faq_026",
+    "intent": "general",
+    "question": "L’Université Virtuelle du Burkina Faso (UV-BF) est-elle publique ou privée ?",
+    "reponse": "L’UV-BF est un Établissement Public de l’État à caractère Scientifique, Culturel et Technique. Elle relève du Ministère de l’Enseignement Supérieur, de la Recherche et de l’Innovation (MESRI).",
+    "entities": {},
+    "variantes": [
+      "L'UV-BF est-elle une universite d'Etat ?",
+      "L'UV-BF depend de quel ministere ?",
+      "Est-ce une universite publique ou privee ?"
+    ]
+  },
+  {
+    "id": "faq_027",
+    "intent": "general",
+    "question": "Quels types de formations sont proposés par l'Université Virtuelle ?",
+    "reponse": "L’UV-BF propose principalement deux types de formations :\n\n    Des formations diplômantes dans le système LMD (Licences et Masters)\n    Des formations certifiantes à distance dans divers domaines professionnels\n\n(voir le menu Formations / Certifications pour plus de détails)",
+    "entities": {},
+    "variantes": [
+      "Y a-t-il des formations certifiantes en plus des diplomes ?",
+      "Quelle est la difference entre formation diplomante et certifiante ?"
+    ]
+  },
+  {
+    "id": "faq_028",
+    "intent": "general",
+    "question": "Où peut-on suivre l’actualité de l’UV-BF ?",
+    "reponse": "L’actualité de l’université est publiée sur le site officiel :  https://uv.bf/actualites/. Elle est également relayée sur ses réseaux sociaux officiels :\n\n    Facebook : https://web.facebook.com/uvburkina\n    Chaîne WhatsApp : https://whatsapp.com/channel/0029Vb6yUTyL7UVR7X0FPo24\n    YouTube : https://www.youtube.com/@uv-bf\n    LinkedIn : bf.linkedin.com/in/uv-bf",
+    "entities": {},
+    "variantes": [
+      "Ou suivre les actualites de l'UV-BF ?",
+      "Quels sont les reseaux sociaux officiels de l'UV-BF ?"
+    ]
+  },
+  {
+    "id": "faq_029",
+    "intent": "general",
+    "question": "Existe-t-il des mesures d’accompagnement pour les étudiants de l'UV-BF ?",
+    "reponse": "Oui. Plusieurs dispositifs sont mis en place par l’UV-BF pour accompagner les étudiants :\n\n    Carte SIM étudiante : Grâce à une convention avec Orange Burkina Faso, chaque étudiant régulièrement inscrit reçoit une carte SIM avec 10 Go de données par mois. L’accès à la plateforme de cours est entièrement gratuit via le réseau 4G d’Orange.\n    Programme “1 Étudiant – 1 Ordinateur” : Une subvention à hauteur de 85 % sur l’achat d’un ordinateur à travers le programme un étudiant un oridnateur. L’étudiant ne paie que 15 % du prix, plafonné à 200 000 FCFA.\n    Espaces Numériques Ouverts (ENO) : Les ENO offrent un accès à une connexion internet haut débit, à un espace de travail équipé, ainsi qu’à une assistance académique et technique.\n    Formations régionales : Chaque année, des sessions de formation sont organisées dans toutes les régions pour initier les nouveaux étudiants à l’usage de la plateforme de cours et aux outils informatiques essentiels à la formation à distance.",
+    "entities": {},
+    "variantes": [
+      "Quelles aides existent pour les etudiants de l'UV-BF ?",
+      "Quels sont les avantages en tant qu'etudiant UV-BF ?",
+      "Y a-t-il un accompagnement pour les etudiants ?"
+    ]
+  },
+  {
+    "id": "faq_030",
+    "intent": "general",
+    "question": "Les diplômes délivrés par l'UV-BF sont-ils reconnus par le CAMES ?",
+    "reponse": "Oui. En tant qu’université publique, les diplômes délivrés par l’UV-BF sont reconnus par le Conseil Africain et Malgache pour l’Enseignement Supérieur (CAMES), comme ceux des autres universités publiques du Burkina Faso.",
+    "entities": {},
+    "variantes": [
+      "Le diplome est reconnu par le CAMES ?",
+      "Est-ce que mon diplome UV-BF a une valeur reconnue ?",
+      "Les diplomes UV-BF sont-ils valables ?"
+    ]
+  },
+  {
+    "id": "faq_031",
+    "intent": "general",
+    "question": "Comment se déroulent les cours à distance à l’UV-BF ?",
+    "reponse": "Les cours à l’UV-BF se déroulent principalement à distance via une plateforme de cours en ligne accessible 24h/24. (Voir le menu Plateforme de cours : http://uv.bf/nos-plateformes/)\n\nIls combinent deux types d’activités pédagogiques :\n\n    Des activités asynchrones : l’étudiant apprend à son rythme en accédant aux ressources (cours, vidéos, quiz, devoirs, etc.) mises en ligne par les enseignants.\n    Des activités synchrones : des sessions interactives en ligne (visioconférences, classes virtuelles) sont organisées à des horaires fixés pour permettre l’échange en temps réel avec les enseignants.\n\nEn complément, des regroupements en présentiel ponctuels peuvent avoir lieu pour des travaux pratiques (TP), des évaluations sur table ou des activités spécifiques selon les filières.",
+    "entities": {},
+    "variantes": [
+      "Comment se passent les cours a distance ?",
+      "Est-ce que tous les cours sont en ligne ?",
+      "Y a-t-il des regroupements en presentiel ?"
+    ]
+  },
+  {
+    "id": "faq_032",
+    "intent": "etudiant_ordinateur",
+    "question": "Qu’est-ce que le programme 1E1O ?",
+    "reponse": "Le programme « 1 Étudiant – 1 Ordinateur » est une initiative nationale visant à faciliter l’accès des étudiants burkinabè dans les universités publiques à un ordinateur personnel. Porté par l’État, ce programme permet aux étudiants éligibles d’acquérir un ordinateur portable de qualité, moins couteux subventionné à hauteur de 85 %. L’étudiant ne paie que 15 % du coût, avec un plafond de 200 000 FCFA à sa charge.",
+    "entities": {},
+    "variantes": [
+      "C'est quoi le programme un etudiant un ordinateur ?",
+      "1E1O c'est quoi ?",
+      "Qu'est-ce que le programme un etudiant, un ordinateur ?"
+    ]
+  },
+  {
+    "id": "faq_033",
+    "intent": "etudiant_ordinateur",
+    "question": "Qui peut souscrire au programme 1E1O ?",
+    "reponse": "Peuvent souscrire au programme :\n\n    Les étudiants régulièrement inscrits à l’UV-BF,\n    Disposant d’un identifiant national étudiant (INE),\n    Ayant une carte d’étudiant valide ou une attestation d’inscription,\n    Et répondant aux critères fixés à chaque appel à souscription.\n\nL’éligibilité est vérifiée automatiquement lors de la création de votre compte sur la plateforme dédiée.",
+    "entities": {},
+    "variantes": [
+      "Qui est eligible au programme 1E1O ?",
+      "Ai-je le droit de souscrire au programme un etudiant un ordinateur ?"
+    ]
+  },
+  {
+    "id": "faq_034",
+    "intent": "etudiant_ordinateur",
+    "question": "Comment souscrire au programme 1E1O ?",
+    "reponse": "La souscription se fait en ligne via une plateforme dédiée (https://ordinateur.campusfaso.bf/), accessible lors de chaque campagne. Vous devrez :\n\n    Créer un compte sur la plateforme 1E1O,\n    Remplir le formulaire de demande avec vos informations (INE, mail, téléphone),\n    Vérifier votre éligibilité,\n    Effectuer le paiement de votre quotité,\n    Télécharger la preuve de paiement,\n    Et attendre la programmation pour la distribution de l’ordinateur.",
+    "entities": {},
+    "variantes": [
+      "Comment faire pour souscrire au programme 1E1O ?",
+      "Comment commander mon ordinateur via 1E1O ?",
+      "Ou souscrire au programme un etudiant un ordinateur ?"
+    ]
+  },
+  {
+    "id": "faq_035",
+    "intent": "etudiant_ordinateur",
+    "question": "J’ai oublié mon mot de passe de la plateforme 1E1O ?",
+    "reponse": "Si vous avez oublié votre mot de passe, vous pouvez le réinitialiser directement depuis la page de connexion de la plateform 1E1O  en cliquant sur « mot de passe oublié ? »\n\nVous serez redirigé vers une page où vous pourrez récupérer votre mot de passe en saisissant soit votre adresse e-mail. Si l’adresse e-mail saisie est correcte, vous recevrez un e-mail contenant un lien pour créer un nouveau mot de passe. Pensez à vérifier aussi vos courriers indésirables (spams) si vous ne recevez pas le mail.",
+    "entities": {},
+    "variantes": [
+      "Mot de passe oublie sur la plateforme 1E1O",
+      "Comment reinitialiser mon mot de passe sur la plateforme ordinateur.campusfaso.bf ?"
+    ]
+  },
+  {
+    "id": "faq_036",
+    "intent": "etudiant_ordinateur",
+    "question": "Assistance 1E1O ?",
+    "reponse": "En cas d’assistance liée au programme 1E1O, veuillez prendre attache avec le point focal de l’UV-BF du programme un étudiant un ordinateur : \n\n    WhatsApp technique : +226 05 05 67 80\n    E-mail : pointfocal@uv.bf",
+    "entities": {},
+    "variantes": [
+      "Comment contacter l'assistance du programme 1E1O ?",
+      "Numero d'assistance pour le programme un etudiant un ordinateur"
+    ]
+  },
+  {
+    "id": "faq_037",
+    "intent": "etudiant_ordinateur",
+    "question": "Peut-on payer la quotité par tranche ?",
+    "reponse": "Non. Le paiement de la quotité (15 % du prix de l’ordinateur, plafonnée à 200 000 FCFA) doit être effectué en une seule fois, par les moyens de paiement autorisés sur la plateforme.",
+    "entities": {},
+    "variantes": [
+      "Peut-on echelonner le paiement de la quotite 1E1O ?",
+      "Paiement en plusieurs fois pour l'ordinateur du programme 1E1O"
+    ]
+  },
+  {
+    "id": "faq_038",
+    "intent": "etudiant_ordinateur",
+    "question": "J’essaie de créer mon compte mais on me dit que je suis inéligible. Que faire ?",
+    "reponse": "Si la plateforme indique que vous êtes inéligible, vérifiez :\n\n    Assurez-vous que vous n’étiez pas orienté dans une autre université avant de rejoindre l’UV-BF. Si tel est le cas, prenez attache avec le Point Focal du programme 1E1O de votre ancienne université.\n    Vérifiez que l’adresse email que vous utilisez pour créer votre compte est la même que celle fournie lors de votre inscription sur Campus Faso.\n    Si vous avez changé d’adresse email, contactez le Point Focal 1E1O de l’UV-BF sur place ou laissez un message WhatsApp sur le numéro d’assistance technique (+226 05 05 67 80) en décrivant clairement votre problème pour qu’il soit résolu.",
+    "entities": {},
+    "variantes": [
+      "Mon compte 1E1O indique que je suis ineligible, que faire ?",
+      "Pourquoi mon compte 1E1O est refuse ?"
+    ]
+  },
+  {
+    "id": "faq_039",
+    "intent": "etudiant_ordinateur",
+    "question": "J'ai oublié mon mot de passe de la plateforme du programme 1E1O, que faire ?",
+    "reponse": "Si vous avez oublié votre mot de passe :\n\n    Assurez-vous que l’adresse email que vous utilisez actuellement est la même que celle fournie lors de votre inscription sur Campus Faso.\n        Si c’est bien le cas, connectez-vous à votre compte et cliquez sur « Mot de passe oublié ».\n\n        Vous recevrez un email avec un lien pour réinitialiser votre mot de passe.\n\n    Si l’adresse e-mail n’est pas la même, contactez le Point Focal 1E1O de l’UV-BF sur place ou laissez un message WhatsApp au +226 05 05 67 80 (assistance technique) en décrivant clairement votre problème.",
+    "entities": {},
+    "variantes": [
+      "J'ai oublie mon mot de passe du programme un etudiant un ordinateur",
+      "Mot de passe oublie plateforme 1E1O, comment recuperer"
+    ]
+  },
+  {
+    "id": "faq_040",
+    "intent": "etudiant_ordinateur",
+    "question": "Ma quotité n’a pas été validée. Que faire ?",
+    "reponse": "Vérifiez que vous avez bien rempli toutes les étapes de souscription (création de compte, choix de l’ordinateur, paiement de la quotité, etc.).\nSi tout est correct et que la quotité n’est toujours pas validée, prenez attache avec le Point Focal 1E1O de l’UV-BF sur place ou envoyez un message WhatsApp au +226 05 05 67 80 (assistance technique) en précisant vos informations (nom, prénom, INE, numéro de téléphone) ainsi que le message de paiement de la quotité envoyé par l’opérateur.",
+    "entities": {},
+    "variantes": [
+      "Ma quotite 1E1O n'est pas validee, que faire ?",
+      "Pourquoi ma quotite n'apparait pas comme validee ?"
+    ]
+  },
+  {
+    "id": "faq_041",
+    "intent": "etudiant_ordinateur",
+    "question": "Ma subvention n’a pas été accordée. Que faire ?",
+    "reponse": "Si votre subvention n’a pas été accordée, veuillez prendre attache avec point focal du programme 1E1O de l’UV-BF ou envoyer  un message whatsapp sur le numéro d’assistance technique (WhatsApp au +226 05 05 67 80) mentionnant votre nom et prénom plus INE.",
+    "entities": {},
+    "variantes": [
+      "Ma subvention 1E1O n'a pas ete accordee, que faire ?",
+      "Pourquoi je n'ai pas eu la subvention pour l'ordinateur ?"
+    ]
+  },
+  {
+    "id": "faq_042",
+    "intent": "etudiant_ordinateur",
+    "question": "Est-ce possible de retourner mon ordinateur ?",
+    "reponse": "Oui, mais uniquement dans le cas où il y a un défaut de fabrication dont l’étudiant n’est pas responsable.\nSi l’ordinateur a été confié à une tierce personne pour réparation ou installation, et qu’un problème survient par la suite, le retour ne sera pas accepté. Dans tous les cas, la procédure doit passer par le Point Focal 1E1O de l’UV-BF pour validation.",
+    "entities": {},
+    "variantes": [
+      "Puis-je rendre mon ordinateur du programme 1E1O ?",
+      "Comment retourner un ordinateur defectueux ?"
+    ]
+  },
+  {
+    "id": "faq_043",
+    "intent": "etudiant_ordinateur",
+    "question": "Puis-je me faire rembourser si je ne souhaite pas poursuivre mes paiements ?",
+    "reponse": "Vous pouvez annuler votre souscription avant l’étape de paiement.\nUne fois le paiement effectué, le remboursement n’est pas possible, sauf cas exceptionnels :\n\n    Si la marque d’ordinateur pour laquelle vous avez souscrit est en rupture de stock et que le programme ne peut pas vous fournir le matériel.\n    Si le programme constate un nombre important d’ordinateurs défectueux pour une marque donnée et décide de rembourser les étudiants concernés qui n’ont pas encore reçu leur matériel.",
+    "entities": {},
+    "variantes": [
+      "Puis-je annuler ma souscription 1E1O et me faire rembourser ?",
+      "Remboursement de la quotite 1E1O, est-ce possible ?"
+    ]
+  },
+  {
+    "id": "faq_044",
+    "intent": "etudiant_ordinateur",
+    "question": "J’ai un problème avec mon ordinateur. Que faire ?",
+    "reponse": "Contactez le Service Après-Vente (SAV) via le numéro fourni par le fournisseur ou via la plateforme (https://ordinateur.campusfaso.bf/) \nInformez l’assistance technique ou prenez attache avec le Point Focal 1E1O de l’UV-BF en cas de difficultés.",
+    "entities": {},
+    "variantes": [
+      "Mon ordinateur du programme 1E1O est en panne, que faire ?",
+      "Probleme materiel avec mon ordinateur 1E1O"
+    ]
+  },
+  {
+    "id": "faq_045",
+    "intent": "etudiant_ordinateur",
+    "question": "Je ne vois pas mon nom dans les listes de distribution des ordinateurs, que faire ?",
+    "reponse": "Cela peut être dû à plusieurs raisons :\n\n    Quotité non validée,\n    Subvention non accordée,\n    Inscription ou paiement non confirmés.\n\nDans ce cas, prenez attache avec le Point Focal 1E1O de l’UV-BF ou envoyez un message WhatsApp à l’assistance technique au +226 05 05 67 80, en précisant vos nom, prénom et INE.",
+    "entities": {},
+    "variantes": [
+      "Je ne trouve pas mon nom sur la liste de distribution des ordinateurs 1E1O",
+      "Mon nom n'apparait pas pour recuperer mon ordinateur"
+    ]
+  },
+  {
+    "id": "faq_046",
+    "intent": "carte_sim",
+    "question": "Quelle est la dotation est reçue chaque mois ?",
+    "reponse": "Chaque étudiant inscrit reçoit une dotation de 10 Go de données par mois, utilisable pour accéder à la plateforme de cours et aux services pédagogiques en ligne.",
+    "entities": {},
+    "variantes": [
+      "Combien de Go de donnees je recois chaque mois ?",
+      "Quelle est la dotation internet mensuelle avec la carte SIM ?"
+    ]
+  },
+  {
+    "id": "faq_047",
+    "intent": "carte_sim",
+    "question": "Qui peut avoir une carte SIM à l'UV-BF ?",
+    "reponse": "Tous les étudiants régulièrement inscrits à l’UV-BF, à condition de ne pas être inscrits dans une autre université.",
+    "entities": {},
+    "variantes": [
+      "Qui a droit a une carte SIM etudiante a l'UV-BF ?",
+      "Puis-je avoir une carte SIM si je suis deja inscrit ailleurs ?"
+    ]
+  },
+  {
+    "id": "faq_048",
+    "intent": "carte_sim",
+    "question": "Comment obtenir ma carte SIM ?",
+    "reponse": "Les cartes SIM sont distribuées lors des campagnes organisées par l’université.",
+    "entities": {},
+    "variantes": [
+      "Comment recuperer ma carte SIM etudiante ?",
+      "Ou retirer ma carte SIM a l'UV-BF ?"
+    ]
+  },
+  {
+    "id": "faq_049",
+    "intent": "carte_sim",
+    "question": "Je ne vois pas mon nom dans les listes de distribution ?",
+    "reponse": "Rendez-vous au lieu de distribution le plus proche lors des remises avec votre attestation d’inscription ou carte d’étudiant pour vérification et enregistrement. Votre carte SIM pourra alors vous être remise.",
+    "entities": {},
+    "variantes": [
+      "Je ne vois pas mon nom sur la liste de distribution des cartes SIM",
+      "Mon nom n'apparait pas pour recuperer ma carte SIM"
+    ]
+  },
+  {
+    "id": "faq_050",
+    "intent": "diplome_attestation",
+    "question": "Comment obtenir mes relevés de notes ?",
+    "reponse": "Les relevés de notes sont disponibles après chaque délibération définitive.",
+    "entities": {},
+    "variantes": [
+      "Comment avoir mon releve de notes ?",
+      "Ou telecharger mon releve de notes ?"
+    ]
+  },
+  {
+    "id": "faq_051",
+    "intent": "diplome_attestation",
+    "question": "Comment réclamer une note ou contester un résultat ?",
+    "reponse": "Un délai de une semaine après la proclamation des résultats est ouvert pour les réclamations et unea demande doit être adressée à l’Enseignant via les canaux indiqués.",
+    "entities": {},
+    "variantes": [
+      "Comment contester une note ?",
+      "Comment faire une reclamation sur un resultat d'examen ?",
+      "Delai pour reclamer une note"
+    ]
+  },
+  {
+    "id": "faq_052",
+    "intent": "diplome_attestation",
+    "question": "Comment récupérer mon attestation de fin de cycle ?",
+    "reponse": "L’attestation de fin de cycle est délivrée après validation du stage et de la soutenance ou après validation de la dernière session (S6).",
+    "entities": {},
+    "variantes": [
+      "Comment obtenir mon attestation de fin de cycle ?",
+      "Quand ai-je droit a l'attestation de fin de cycle ?"
+    ]
+  },
+  {
+    "id": "faq_054",
+    "intent": "evaluation_deliberations",
+    "question": "Comment se déroulent les examens ?",
+    "reponse": "Les examens se déroulent en 4 sessions : 2 normales et 2 sessions de rattrapage. Ils peuvent être organisés en ligne ou en présentiel dans les centres régionaux.",
+    "entities": {},
+    "variantes": [
+      "Comment se deroulent les examens ?",
+      "Combien de sessions d'examens par an ?",
+      "Y a-t-il une session de rattrapage ?"
+    ]
+  },
+  {
+    "id": "faq_055",
+    "intent": "evaluation_deliberations",
+    "question": "En cas d'absence justifiée à un examen, existe-t-il un dispositif d'examen spécial ?",
+    "reponse": "Non. En cas d’absence, même justifiée, il n’existe pas à ce jour de dispositif d’examen spécial.\nL’étudiant concerné devra attendre la session de rattrapage (cf. régimes des études en vigueur).",
+    "entities": {},
+    "variantes": [
+      "Existe-t-il un examen special en cas d'absence justifiee ?",
+      "Que se passe-t-il si je suis absent a un examen meme justifie ?"
+    ]
+  },
+  {
+    "id": "faq_056",
+    "intent": "evaluation_deliberations",
+    "question": "Quand ont lieu les délibérations ?",
+    "reponse": "Après chaque session. La première proclamation est suivie d’une semaine de réclamations, puis la seconde proclamation est définitive.",
+    "entities": {},
+    "variantes": [
+      "Quand sont publiees les deliberations ?",
+      "Quand puis-je faire une reclamation apres les resultats ?"
+    ]
+  },
+  {
+    "id": "faq_057",
+    "intent": "groupe_communaute",
+    "question": "Existent-t-ils des groupes WhatsApp officiels ?",
+    "reponse": "Oui. Chaque filière dispose d’un groupe WhatsApp officiel par filière, par niveau et par année académique géré par l’administration.",
+    "entities": {},
+    "variantes": [
+      "Y a-t-il un groupe WhatsApp pour ma filiere ?",
+      "Existe-t-il des groupes WhatsApp par promotion ?"
+    ]
+  },
+  {
+    "id": "faq_058",
+    "intent": "groupe_communaute",
+    "question": "Comment intégrer le groupe WhatsApp ?",
+    "reponse": "Des liens d’intégrations des groupes WhatsApp sont envoyés par sms après chaque inscription ou réinscription des étudiants sur le numéros utilisé à cet effet . \n\nVous pouvez également consulter le lien de votre groupe Whatsapp en entrant votre INE sur cette page : https://uv.bf/espace-etudiant/services-numeriques/#groupes-whatsapp ",
+    "entities": {},
+    "variantes": [
+      "Comment rejoindre le groupe WhatsApp de ma filiere ?",
+      "Ou trouver le lien du groupe WhatsApp de ma classe ?"
+    ]
+  },
+  {
+    "id": "faq_059",
+    "intent": "groupe_communaute",
+    "question": "Comment intégrer une Communauté Virtuelle ?",
+    "reponse": "Les Communautés Virtuelles sont implantées par localité et réunissent au moins 30 étudiants. Chaque communauté élit un bureau de coordination.\n👉 Voir la page Communautés Virtuelles",
+    "entities": {},
+    "variantes": [
+      "Comment rejoindre une communaute virtuelle de l'UV-BF ?",
+      "Qu'est-ce qu'une communaute virtuelle a l'UV-BF ?"
+    ]
+  },
+  {
+    "id": "faq_060",
+    "intent": "groupe_communaute",
+    "question": "Comment éviter les faux groupes ou arnaques ?",
+    "reponse": "Ne rejoignez que les groupes validés par l’UV-BF et consultez l’administration ou les points focaux locaux pour vérification des informations.",
+    "entities": {},
+    "variantes": [
+      "Comment reconnaitre un faux groupe WhatsApp UV-BF ?",
+      "Comment eviter les arnaques sur les groupes etudiants ?"
+    ]
+  },
+  {
+    "id": "faq_061",
+    "intent": "securite",
+    "question": "Comment savoir si une information vient réellement de l’UV-BF ?",
+    "reponse": "L’UV-BF publie uniquement via ses canaux officiels. Toute information provenant d’une autre source n’est pas valide",
+    "entities": {},
+    "variantes": [
+      "Comment verifier qu'une information vient bien de l'UV-BF ?",
+      "Comment reconnaitre une fausse annonce de l'UV-BF ?"
+    ]
+  },
+  {
+    "id": "faq_062",
+    "intent": "securite",
+    "question": "Quels sont les liens officiels des plateformes de l’UV-BF et des partenaires ?",
+    "reponse": "    Site officiel : https://uv.bf\n    Facebook : https://www.facebook.com/uvburkina/\n    Chaîne WhatsApp officielle : https://www.whatsapp.com/channel/0029Vb6yUTyL7UVR7X0FPo24\n    YouTube : https://www.youtube.com/@uv-bf\n    LinkedIn : https://bf.linkedin.com/in/uv-bf\n\n    Inscriptions Campus Faso : https://www.campusfaso.bf\n    Plateforme 1 Étudiant – 1 Ordinateur : https://ordinateur.campusfaso.bf\n    Plateforme intégrée Campus Faso : https://services.campusfaso.bf/#/",
+    "entities": {},
+    "variantes": [
+      "Quels sont les sites et reseaux sociaux officiels de l'UV-BF ?",
+      "Ou trouver les liens officiels de l'UV-BF ?"
+    ]
+  },
+  {
+    "id": "faq_063",
+    "intent": "general",
+    "question": "Qu'est-ce que CITADEL et quel est son lien avec l'UV-BF ?",
+    "reponse": "{ORGANISME} est le centre d'excellence interdisciplinaire en intelligence artificielle pour le developpement, heberge au sein de l'UV-BF. Il forme des etudiants aux niveaux master et doctorat dans le domaine de l'IA appliquee, et a notamment initie le Master {FILIERE}, l'un des premiers programmes homologues de ce type au Burkina Faso.",
+    "entities": {
+      "ORGANISME": "CITADEL",
+      "FILIERE": "Fouille de Donnees et Intelligence Artificielle (FDIA)"
+    },
+    "variantes": [
+      "C'est quoi CITADEL ?",
+      "Quel est le lien entre CITADEL et l'UV-BF ?",
+      "CITADEL c'est quoi exactement ?"
+    ]
+  },
+  {
+    "id": "faq_064",
+    "intent": "general",
+    "question": "Comment integrer CITADEL ou beneficier d'une bourse d'excellence ?",
+    "reponse": "{ORGANISME} publie regulierement des appels a candidatures pour son programme de {SERVICE}, ainsi que des opportunites de master et de doctorat au sein de ses projets de recherche. Les appels sont annonces sur le site du centre et ses canaux officiels.",
+    "entities": {
+      "ORGANISME": "CITADEL",
+      "SERVICE": "bourse de master d'excellence"
+    },
+    "variantes": [
+      "Comment integrer CITADEL ?",
+      "Comment avoir la bourse d'excellence de CITADEL ?",
+      "Comment postuler a CITADEL ?"
+    ]
+  },
+  {
+    "id": "faq_065",
+    "intent": "general",
+    "question": "Quelles filieres concretes sont proposees a l'UV-BF ?",
+    "reponse": "Les filieres de l'UV-BF sont organisees en 3 programmes :\n\nProgramme Sciences du numerique : Licence Genie logiciel, Master Fouilles de donnees et Intelligence Artificielle (FDIA), Master cybersecurite, entre autres.\nProgramme Sciences fondamentales : Licence Mathematiques-Informatique, Licence Physique et ingenierie de l'energie, Hygiene et securite alimentaire, entre autres.\nProgramme Sciences transversales : Licence Geomatique, Master e-sante et telemedecine, Master Technologies de l'Education et la Formation, entre autres.\n\nL'universite ouvre aussi regulierement de nouvelles filieres (par exemple recemment en sciences economiques et de gestion, avec une licence en economie numerique et une licence en marketing digital et e-commerce). A noter : la filiere MPCI (Mathematiques-Physique-Chimie-Informatique) n'est pas proposee par l'UV-BF, elle existe dans d'autres etablissements publics (Centre Universitaire de Banfora et de Kaya notamment). La liste complete et a jour des filieres UV-BF est publiee sur https://uv.bf/offre-de-formation/ a chaque campagne de candidature.",
+    "entities": {},
+    "variantes": [
+      "Quelles formations propose l'UV-BF ?",
+      "Quelles filieres offre l'universite ?",
+      "Liste des filieres disponibles a l'UV-BF",
+      "Quelles sont les formations disponibles a l'UV-BF ?",
+      "Quels parcours puis-je suivre a l'UV-BF ?",
+      "Y a-t-il une filiere MPCI a l'UV-BF ?",
+      "Quelles filieres en sciences du numerique existe-t-il ?",
+      "Y a-t-il une filiere economie ou gestion a l'UV-BF ?"
+    ]
+  }
+]

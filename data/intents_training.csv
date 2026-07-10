@@ -1,0 +1,192 @@
+text,intent
+"Comment m'inscrire à l'université ?",inscription
+"Je veux m'inscrire à l'UV-BF, comment faire ?",inscription
+"Quelles sont les démarches pour l'inscription ?",inscription
+"Comment créer mon compte étudiant ?",inscription
+"Quelles pièces fournir pour s'inscrire ?",inscription
+"Je suis nouveau, comment procéder à l'inscription ?",inscription
+"Conditions d'admission en licence",inscription
+"Comment candidater au master FDIA ?",inscription
+"Comment faire ma réinscription cette année ?",inscription
+"Procédure de réinscription pour l'année prochaine",inscription
+"Je veux me réinscrire, quelle est la démarche ?",inscription
+"Où déposer mon dossier d'inscription ?",inscription
+"Peut-on s'inscrire en ligne à l'UV-BF ?",inscription
+"Comment accéder à mes cours en ligne ?",cours_acces
+"Je n'arrive pas à voir mes cours sur la plateforme",cours_acces
+"Où trouver les supports de cours ?",cours_acces
+"Comment télécharger les documents de cours ?",cours_acces
+"La plateforme ne montre pas mes cours",cours_acces
+"Comment rejoindre une classe virtuelle ?",cours_acces
+"Comment suivre les cours en direct ?",cours_acces
+"Où voir mon emploi du temps des cours ?",cours_acces
+"Je ne trouve pas l'unité d'enseignement",cours_acces
+"Comment accéder aux vidéos de cours ?",cours_acces
+"Quand ont lieu les examens ?",examen
+"Quel est le calendrier des examens ?",examen
+"Comment se passent les examens en ligne ?",examen
+"Comment se déroule un examen à distance ?",examen
+"J'ai raté un examen, que faire ?",examen
+"Comment demander un rattrapage ?",examen
+"Où consulter mes résultats d'examen ?",examen
+"Comment voir mes notes ?",examen
+"Quelle est la date de la session de rattrapage ?",examen
+"Comment se connecter pour passer un examen ?",examen
+"Comment obtenir une bourse ?",bourse
+"Quelles sont les conditions pour avoir une bourse ?",bourse
+"Comment faire une demande de bourse d'études ?",bourse
+"Je veux postuler à une bourse",bourse
+"Quels documents fournir pour la bourse ?",bourse
+"Suis-je éligible à la bourse ?",bourse
+"Comment savoir si j'ai obtenu la bourse ?",bourse
+"J'ai oublié mon mot de passe",mot_de_passe
+"Comment réinitialiser mon mot de passe ?",mot_de_passe
+"Je ne peux pas me connecter, mot de passe oublié",mot_de_passe
+"Mon compte est bloqué",mot_de_passe
+"Comment débloquer mon compte étudiant ?",mot_de_passe
+"J'ai perdu mes identifiants de connexion",mot_de_passe
+"Comment changer mon mot de passe ?",mot_de_passe
+"Comment obtenir mon attestation de scolarité ?",diplome_attestation
+"Où télécharger mon attestation ?",diplome_attestation
+"Quand vais-je recevoir mon diplôme ?",diplome_attestation
+"Comment récupérer mon diplôme ?",diplome_attestation
+"Je veux un certificat de scolarité",diplome_attestation
+"Comment obtenir mon relevé de notes officiel ?",diplome_attestation
+"Quand commence la rentrée académique ?",calendrier_academique
+"Quel est le calendrier académique ?",calendrier_academique
+"Quelle est la durée d'un semestre ?",calendrier_academique
+"Quand débutent les cours ?",calendrier_academique
+"Quelles sont les vacances universitaires ?",calendrier_academique
+"Quand se termine l'année académique ?",calendrier_academique
+"Quel est le montant des frais de scolarité ?",frais_scolarite
+"Combien coûte l'inscription ?",frais_scolarite
+"Puis-je payer en plusieurs tranches ?",frais_scolarite
+"Quels sont les frais pour le master ?",frais_scolarite
+"Comment payer mes frais de scolarité ?",frais_scolarite
+"Y a-t-il un paiement échelonné possible ?",frais_scolarite
+"Comment contacter le support technique ?",contact_support
+"Quel est le numéro de téléphone de l'UV-BF ?",contact_support
+"Où se trouve le campus de l'UV-BF ?",contact_support
+"Comment joindre l'administration ?",contact_support
+"Quel est l'email de contact de l'université ?",contact_support
+"Où puis-je poser mes questions administratives ?",contact_support
+"La plateforme ne fonctionne pas",plateforme_technique
+"J'ai un problème technique sur le site",plateforme_technique
+"Quel navigateur utiliser pour la plateforme ?",plateforme_technique
+"Le site est en panne, que faire ?",plateforme_technique
+"Comment signaler un bug sur la plateforme ?",plateforme_technique
+"La page ne charge pas correctement",plateforme_technique
+"Comment m'inscrire pour la première fois ?",inscription
+"Quelle est la procédure d'inscription en ligne ?",inscription
+"Puis-je m'inscrire sans le bac ?",inscription
+"Quels sont les documents obligatoires pour l'inscription ?",inscription
+"Je veux intégrer l'UV-BF, comment m'y prendre ?",inscription
+"Comment valider mon dossier d'inscription ?",inscription
+"Où consulter mes cours du semestre ?",cours_acces
+"Comment voir la liste de mes matières ?",cours_acces
+"Je veux revoir l'enregistrement d'un cours",cours_acces
+"Comment accéder aux ressources pédagogiques ?",cours_acces
+"Le lien du cours en direct ne marche pas",cours_acces
+"Comment m'inscrire à une unité d'enseignement optionnelle ?",cours_acces
+"Quelle est la date du prochain examen ?",examen
+"Comment se préparer pour les examens en ligne ?",examen
+"Puis-je repasser un examen raté ?",examen
+"Comment contester une note d'examen ?",examen
+"Combien de temps dure un examen ?",examen
+"Où puis-je voir mon relevé de notes ?",examen
+"Comment obtenir une aide financière pour mes études ?",bourse
+"Quel est le montant de la bourse ?",bourse
+"Ma demande de bourse a-t-elle été acceptée ?",bourse
+"Comment renouveler ma bourse chaque année ?",bourse
+"Existe-t-il des bourses pour les étudiants en master ?",bourse
+"J'ai un souci pour me connecter, mot de passe incorrect",mot_de_passe
+"Comment sécuriser mon mot de passe ?",mot_de_passe
+"Je n'arrive plus à me connecter à mon compte",mot_de_passe
+"Où changer mes identifiants de connexion ?",mot_de_passe
+"Comment obtenir un certificat de réussite ?",diplome_attestation
+"Mon diplôme n'est pas encore disponible, pourquoi ?",diplome_attestation
+"Comment demander une copie de mon diplôme ?",diplome_attestation
+"Où récupérer mon attestation de réussite ?",diplome_attestation
+"Quelles sont les dates importantes de l'année académique ?",calendrier_academique
+"Quand ont lieu les vacances de fin d'année ?",calendrier_academique
+"Le calendrier universitaire a-t-il changé ?",calendrier_academique
+"Quand débute le deuxième semestre ?",calendrier_academique
+"Quels sont les tarifs pour une licence ?",frais_scolarite
+"Comment obtenir une réduction sur les frais de scolarité ?",frais_scolarite
+"Où payer mes frais universitaires ?",frais_scolarite
+"Les frais sont-ils remboursables en cas d'abandon ?",frais_scolarite
+"Comment contacter un conseiller pédagogique ?",contact_support
+"Quels sont les horaires du service scolarité ?",contact_support
+"Comment envoyer une réclamation à l'administration ?",contact_support
+"Existe-t-il un numéro WhatsApp pour l'assistance ?",contact_support
+"Je n'arrive pas à me connecter au site de l'université",plateforme_technique
+"La vidéo du cours ne se charge pas",plateforme_technique
+"Le formulaire d'inscription affiche une erreur",plateforme_technique
+"Comment vider le cache pour résoudre un bug ?",plateforme_technique
+"Le diplome est-il reconnu par le CAMES ?",diplome_attestation
+"Est-ce que mon diplome a une valeur reconnue ?",diplome_attestation
+"Quelles filieres propose l'UV-BF ?",inscription
+"Quelles sont les formations disponibles a l'UV-BF ?",inscription
+"Je veux connaitre la liste des filieres",inscription
+"Quels moyens de paiement sont acceptes ?",frais_scolarite
+"Peut-on payer par Orange Money ?",frais_scolarite
+"Comment payer mes frais de scolarite ?",frais_scolarite
+"Est-ce que les examens comptent en ligne et en presentiel ?",examen
+"Comment se repartit la note entre le controle en ligne et l'examen sur table ?",examen
+"C'est quoi CITADEL ?",general
+"Quel est le lien entre CITADEL et l'UV-BF ?",general
+"Comment integrer le centre CITADEL ?",general
+"Comment postuler a la bourse d'excellence de CITADEL ?",general
+"Le master FDIA est-il organise par CITADEL ?",general
+"L'UV-BF est-elle une universite publique ou privee ?",general
+"L'UV-BF depend de quel ministere ?",general
+"Quels types de formations propose l'UV-BF ?",general
+"Ou suivre l'actualite de l'UV-BF ?",general
+"Quels sont les reseaux sociaux de l'UV-BF ?",general
+"Existe-t-il des mesures d'accompagnement pour les etudiants ?",general
+"Quels avantages a-t-on en tant qu'etudiant a l'UV-BF ?",general
+"Comment se deroulent les cours a distance de maniere generale ?",general
+"Est-ce que les cours sont uniquement en ligne ?",general
+"Qu'est-ce que l'UV-BF exactement ?",general
+"C'est quoi le programme un etudiant un ordinateur ?",etudiant_ordinateur
+"Qu'est-ce que le programme 1E1O ?",etudiant_ordinateur
+"Qui peut souscrire au programme 1E1O ?",etudiant_ordinateur
+"Comment souscrire au programme un etudiant un ordinateur ?",etudiant_ordinateur
+"J'ai oublie mon mot de passe de la plateforme 1E1O",etudiant_ordinateur
+"Comment contacter l'assistance du programme 1E1O ?",etudiant_ordinateur
+"Peut-on payer la quotite de l'ordinateur en plusieurs fois ?",etudiant_ordinateur
+"Je suis declare ineligible sur la plateforme ordinateur, que faire ?",etudiant_ordinateur
+"Ma quotite n'a pas ete validee",etudiant_ordinateur
+"Ma subvention pour l'ordinateur n'a pas ete accordee",etudiant_ordinateur
+"Puis-je retourner mon ordinateur du programme 1E1O ?",etudiant_ordinateur
+"Puis-je me faire rembourser la quotite de l'ordinateur ?",etudiant_ordinateur
+"Mon ordinateur du programme 1E1O est en panne",etudiant_ordinateur
+"Je ne vois pas mon nom sur la liste de distribution des ordinateurs",etudiant_ordinateur
+"Comment savoir si j'ai un ordinateur a recuperer ?",etudiant_ordinateur
+"Quelle est la dotation de donnees mensuelle avec la carte SIM ?",carte_sim
+"Qui peut avoir une carte SIM etudiante ?",carte_sim
+"Comment obtenir ma carte SIM a l'UV-BF ?",carte_sim
+"Je ne vois pas mon nom sur la liste de distribution des cartes SIM",carte_sim
+"Combien de Go recoit-on chaque mois avec la carte SIM Orange ?",carte_sim
+"Comment se deroulent les examens en general ?",evaluation_deliberations
+"Combien de sessions d'examens y a-t-il par an ?",evaluation_deliberations
+"Existe-t-il un examen special en cas d'absence justifiee ?",evaluation_deliberations
+"Y a-t-il un dispositif special si je rate un examen ?",evaluation_deliberations
+"Quand ont lieu les deliberations des resultats ?",evaluation_deliberations
+"Quand puis-je faire une reclamation apres les resultats ?",evaluation_deliberations
+"Combien de temps ai-je pour reclamer apres la proclamation ?",evaluation_deliberations
+"Existe-t-il des groupes WhatsApp officiels par filiere ?",groupe_communaute
+"Comment rejoindre le groupe WhatsApp de ma filiere ?",groupe_communaute
+"Comment integrer une communaute virtuelle de l'UV-BF ?",groupe_communaute
+"Comment eviter les faux groupes ou arnaques sur WhatsApp ?",groupe_communaute
+"Ou trouver le lien du groupe WhatsApp de ma classe ?",groupe_communaute
+"Qu'est-ce qu'une communaute virtuelle a l'UV-BF ?",groupe_communaute
+"Comment savoir si une information vient vraiment de l'UV-BF ?",securite
+"Comment reconnaitre une fausse annonce de l'UV-BF ?",securite
+"Quels sont les liens officiels des plateformes de l'UV-BF ?",securite
+"Quel est le site officiel de l'UV-BF ?",securite
+"Comment eviter les arnaques en ligne liees a l'UV-BF ?",securite
+"Y a-t-il une filiere MPCI a l'UV-BF ?",general
+"Quelles filieres en sciences du numerique existe-t-il ?",general
+"Y a-t-il une filiere economie ou gestion a l'UV-BF ?",general
+"Quelles sont les filieres concretes de l'UV-BF ?",general
